@@ -1286,7 +1286,7 @@ Dropzone.forElement = (element) ->
 
 
 # Set to false if you don't want Dropzone to automatically find and attach to .dropzone elements.
-Dropzone.autoDiscover = on
+Dropzone.autoDiscover = off 
 
 # Looks for all .dropzone elements and creates a dropzone for them
 Dropzone.discover = ->
