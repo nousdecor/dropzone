@@ -1751,7 +1751,9 @@
     }
   };
 
-  contentLoaded(window, Dropzone._autoDiscoverFunction);
+  if (Dropzone.autoDiscover) {
+    contentLoaded(window, Dropzone._autoDiscoverFunction);
+  }
 
 }).call(this);
 
